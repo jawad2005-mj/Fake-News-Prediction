@@ -1,6 +1,22 @@
 # Fake News Prediction
 
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3%2B-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.32%2B-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+
+[![Open in Streamlit](https://img.shields.io/badge/Open%20in-Streamlit-FF4B4B?style=for-the-badge)](https://fake-news-prediction-4.streamlit.app/)
+
+</div>
+
 This project predicts whether a news item is likely to be real or fake based on the writing style and language patterns in the headline and article text. It includes a Jupyter notebook for the full training workflow and a Streamlit application for interactive use.
+
+Live app: [Fake News Prediction on Streamlit](https://fake-news-prediction-4.streamlit.app/)
+
+## App preview
+
+![Fake News Detector app preview](assets/app-preview.png)
 
 ## Project overview
 
@@ -21,6 +37,8 @@ Fake_News_Prediction/
 ├── app.py                                 # Streamlit web app
 ├── requirements.txt                       # project dependencies
 ├── README.md                              # project documentation
+├── assets/
+│   └── app-preview.png                   # UI preview of the fake news detector
 ├── artifacts/                             # generated model files and cached resources
 ├── .streamlit/
 │   └── config.toml                       # Streamlit UI configuration
