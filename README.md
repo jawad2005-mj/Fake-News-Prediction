@@ -16,7 +16,9 @@ Live app: [Fake News Prediction on Streamlit](https://fake-news-prediction-4.str
 
 ## App preview
 
-![Fake News Detector app preview](assets/app-preview.png)
+<p align="center">
+  <img src="./assets/app-preview.png" alt="Fake News Detector app preview" width="900">
+</p>
 
 ## Project overview
 
